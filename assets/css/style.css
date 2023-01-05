@@ -1,0 +1,269 @@
+section {
+    padding-top: 4rem;
+}
+
+
+
+
+/* Font Start */
+@font-face {
+    font-family: oswald-regular;
+    src: url(assets/font/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: oswald-bold;
+    src: url(assets/font/Oswald-Bold.ttf);
+}
+@font-face {
+    font-family: condensed-regular;
+    src: url(assets/font/RobotoCondensed-Regular.ttf);
+}
+@font-face {
+    font-family: condensed-bold;
+    src: url(assets/font/RobotoCondensed-Bold.ttf);
+}
+/* Font End */
+
+
+/* Navbar Start */
+/* Navbar End */
+
+
+/* Jumbotron Start */
+#jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 100px;
+    background-color: #d3d3d3;
+}
+.img-thumbnail {
+    border: 4px solid black;
+    border-radius: 80px;
+}
+.lead {
+    font-family: condensed-regular;
+}
+.fw-bold {
+    margin-top: 10px;
+}
+/* Jumbotron End */
+
+
+/* About Start */
+#about {
+    padding-bottom: 100px;
+}
+.col h2 {
+    margin-bottom: 30px;
+}
+.col-md-7 {
+    font-family: condensed-regular;
+    font-size: 22px;
+    margin-top: 5px;
+}
+.col-md-5 {
+    text-align: center;
+}
+.col-md-7 b {
+    color: rgb(17, 2, 71);
+}
+/* About End */
+
+
+/* Skill Start */
+#skill {
+    background-color: #d3d3d3;
+    padding-bottom: 100px;
+}
+.card1 {
+    box-shadow: 5px 5px 7px black;
+    background-color: #353336;
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+    justify-self: start;
+}
+.card1:hover .card-content1 {
+    margin-top: -60px;
+}
+.card1:hover .text-group1 {
+    top: 80px;
+    opacity: 1;
+}
+.card-cover1 {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-top: -60px;
+    z-index: 10;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, -5);
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-content1 {
+    color: white;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-top: -200px;
+    position: relative;
+    overflow: hidden;
+    transition: margin-top .3s ease-out;
+}
+.text-group1 {
+    position: absolute;
+    top: -80px;
+    opacity: 0;
+    transition: top .3s .3s;
+}
+.text-group1 h5 {
+    margin-bottom: 5px;
+}
+.text-group1 p {
+    font-size: 15px;
+    font-family: oswald-regular;
+}
+/* Skill End */
+
+
+/* Project Start */
+#project {
+    background-color: #d3d3d3;
+    padding-bottom: 100px;
+}
+#project p {
+    font-size: 20px;
+}
+#project a {
+    font-size: 15px;
+}
+#project iframe {
+    margin-top: 50px;
+}
+/* Project End */
+
+
+/* Contact Start */
+#contact {
+    padding-bottom: 100px;
+}
+.medsos {
+    text-decoration: none;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+    background-color: rgb(80, 75, 75);
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 63px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.sosmed {
+    margin-left: 20px;
+}
+.medsos:hover {
+  color: #fff;
+  background-color: black;
+}
+/* Contact End */
+
+
+/* Footer Start */
+#footer {
+    position: relative;
+    width: 100%;
+    background: #666666;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#footer .social_icon,
+#footer .menu
+{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 10px 0;
+    flex-wrap: wrap;
+}
+#footer .social_icon li,
+#footer .menu li
+{
+    list-style: none;
+}
+#footer .social_icon li a
+{
+    font-size: 2em;
+    color: rgb(177, 175, 175);
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+#footer .social_icon li a:hover {
+    transform: translateY(-10px);
+}
+#footer .menu li a
+{
+    font-size: 1.2em;
+    color: rgb(177, 175, 175);
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+}
+#footer.menu li a:hover {
+    opacity: 1;
+}
+#footer p {
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+.social_icon {
+    margin-left: -10px;
+}
+.hm {
+    margin-left: -10px;
+}
+/* Footer End */
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .medsos {
+        text-decoration: none;
+        display: inline-block;
+        height: 50px;
+        width: 50px;
+        background-color: rgb(80, 75, 75);
+        font-size: 1px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        line-height: 53px;
+        border-radius: 50%;
+        transition: 0.5s;
+    }
+    .sosmed {
+        margin-left: 10px;
+    }
+    .discord {
+        display: none;
+    }
+}
