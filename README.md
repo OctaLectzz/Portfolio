@@ -29,4 +29,4 @@ My hobbies are **playing games** and **watching anime**, I started to enter the 
 <br>
 <br>
 
-<p align="center">©2022 Created And Designed | Lectzz Kanaeru</p>
+<p align="center">©2022 Created And Designed | <a href="https://www.instagram.com/octalectzz/">Octavyan Putra Ramadhan</a></p>
